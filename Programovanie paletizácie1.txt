@@ -1,0 +1,9 @@
+  LBL[1]
+J  P[1] 100% FINE
+J  P[2] 100% FINE
+J  P[1] 100% FINE
+J  P[3] 100% FINE
+  R[1]=R[1]+1
+  R[2]=R[1] MOD 2
+J  P[1] 100% FINE
+  JMP LBL[1]

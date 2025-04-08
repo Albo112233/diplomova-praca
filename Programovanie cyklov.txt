@@ -1,0 +1,20 @@
+J  P[4] 100% FINE
+  R[1]=10
+  R[3]=0
+  R[10]=0
+  R[11]=0
+  R[12]=0
+  FOR R[2]=1 TO R[1]
+  R[10]=R[10]+1
+  IF R[3]=1,JMP LBL[1]
+  R[11]=R[11]+1
+J  P[1] 100% FINE
+  R[3]=1
+  JMP LBL[2]
+  LBL[1]
+  R[12]=R[12]+1
+  R[3]=0
+J  P[3] 100% FINE
+  LBL[2]
+J  P[2] 100% FINE
+  ENDFOR

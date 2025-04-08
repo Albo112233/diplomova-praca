@@ -1,0 +1,15 @@
+  LBL[1]
+  R[1]=1+R[1]
+  R[2]=R[1] MOD 2 
+  IF R[2]=0,JMP LBL[2]
+J  P[2] 100% FINE
+J  P[1] 100% FINE
+J  P[3] 100% FINE
+  WAIT 5.00(sec)
+J  P[1] 100% FINE
+  JMP LBL[1]
+  LBL[2]
+J  P[4] 100% FINE
+J  P[5] 100% FINE
+J  P[1] 100% FINE
+  JMP LBL[1]

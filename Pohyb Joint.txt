@@ -1,0 +1,18 @@
+  R[5]=3
+  R[6]=0
+  R[9]=0
+  R[10]=0
+  FOR R[6]=1 TO R[5]
+  R[7]=R[7]+1
+J  P[1] 100% FINE
+  R[8]=R[7] MOD 2
+  IF R[8]=0,JMP LBL[1]
+J  P[2] 100% FINE
+  R[9]=R[9]+1
+  JMP LBL[2]
+  LBL[1]
+J  P[3] 100% FINE
+  R[10]=R[10]+1
+  LBL[2]
+  ENDFOR
+J  P[1] 100% FINE

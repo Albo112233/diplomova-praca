@@ -1,0 +1,14 @@
+J  P[1] 100% FINE
+  LBL[3]
+  R[3]=R[1] MOD 2
+  IF R[3]=0,JMP LBL[1]
+  R[1]=R[1]+1
+  LBL[1]
+  R[5]=R[5]+1
+J  P[2] 100% FINE
+  IF R[3]=1,JMP LBL[2]
+  R[1]=R[1]+1
+  LBL[2]
+  R[6]=R[6]+1
+J  P[3] 100% FINE
+  IF R[1]<R[2],JMP LBL[3]
